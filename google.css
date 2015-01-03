@@ -1,0 +1,94 @@
+
+#nav ul li:nth-child(4) {
+	background-image:  url('images/googleicon.png');
+	background-position: 0 -600px;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+#nav ul li:nth-child(5) {
+	background-image:  url('images/googleicon.png');
+	background-position: 40px -463px;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+#nav ul li:nth-child(6) {
+	background-image:  url('images/googleicon.png');
+	background-position: 40px -670px;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+#nav ul li:nth-child(7) {
+	background-image:  url('images/self.jpg');
+	background-size: cover;	
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	vertical-align: middle;
+	padding: 0;
+}
+
+#logo {
+	position: absolute;
+	width: 269px;
+	height: 95px;	
+	background-image:  url('images/logo.png');
+	background-size: contain;	
+	top: 20%;
+	left: 43%;
+}
+
+#searchbox {
+	position: absolute;
+	width: 30%;
+	height: 1.75em;
+	top: 33%;
+	left: 35%;
+	border: 1px solid lightgray;
+}
+
+ #searchButton input[type="button"]{
+	position: absolute;	
+	top: 38%;
+	left: 44%;
+	display: inline-block;	
+}
+
+ #luckyButton input[type="button"]{
+	position: absolute;	
+	top: 38%;
+	right: 44%;
+	display: inline-block;	
+}
+
+#footer {
+		position: absolute;
+		bottom: 0;
+		border-top: 1px solid lightgray;
+		color: dimgray; 
+		width: 99%;
+}
+
+#footer ul li, #nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 5px;
+	font-family: arial,sans-serif;
+	font-size: 	.8em;
+	font-weight: 500;
+}
+
+.left {
+	float: left;
+	width: 40%;
+}
+
+.right {
+	float: right;
+	padding-right: 	30px;
+}
